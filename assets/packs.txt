@@ -1,0 +1,23 @@
+{
+    "packs": {
+        "fonts": "fonts",
+        "gacha": "gacha",
+        "ui": "ui",
+        "global": "global",
+        "themes": "themes",
+        "scenes_merged": "scenes_merged",
+        "quest": "quest",
+        "characters": "characters"
+    },
+    "obb": {
+        "extractSize": 1048576,
+        "obbSize": 861874303,
+        "totalSize": 862922879
+    },
+    "scenes": [
+        "1_boot",
+        "2_gameboard",
+        "4_frontend",
+        "5_masteries"
+    ]
+}

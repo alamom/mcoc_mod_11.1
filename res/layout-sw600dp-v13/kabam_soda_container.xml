@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/kabam_soda_account_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/kabam_soda_account_bomb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kabam_soda_account_bomb" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/kabam_soda_account_login_bomb" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.2" />
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.6">
+            <ViewStub android:id="@id/kabam_soda_account_login_stub" android:layout="@layout/kabam_soda_account_login" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="120.0dip" />
+            <ViewStub android:id="@id/kabam_soda_account_loggedin_stub" android:layout="@layout/kabam_soda_account_loggedin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="120.0dip" />
+            <ViewStub android:id="@id/kabam_soda_account_create_stub" android:layout="@layout/kabam_soda_account_create" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="120.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.2">
+            <ImageButton android:layout_gravity="right" android:id="@id/kabam_soda_accountloggedin_closebutton" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/kabam_soda_account_close" android:contentDescription="@string/kabam_soda_account_login_close" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

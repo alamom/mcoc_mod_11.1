@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="kabam_soda_activity_horizontal_margin">128.0dip</dimen>
+    <dimen name="kabam_soda_account_box_minwidth">484.0dip</dimen>
+</resources>

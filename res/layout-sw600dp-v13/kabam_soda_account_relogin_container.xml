@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/kabam_soda_account_relogin_container" android:background="@drawable/kabam_soda_account_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/kabam_soda_account_relogin" />
+    <ImageView android:id="@id/kabam_soda_account_bomb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kabam_soda_account_bomb" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/kabam_soda_account_login_bomb" />
+</RelativeLayout>

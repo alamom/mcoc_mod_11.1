@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="kabam_soda_account_box_padding_top">15.0dip</dimen>
+    <dimen name="kabam_soda_account_box_padding_bottom">15.0dip</dimen>
+    <dimen name="kabam_soda_account_box_padding_left">40.0dip</dimen>
+    <dimen name="kabam_soda_account_box_padding_right">40.0dip</dimen>
+    <dimen name="kabam_soda_account_box_minwidth">360.0dip</dimen>
+    <dimen name="kabam_soda_account_box_maxwidth">384.0dip</dimen>
+</resources>

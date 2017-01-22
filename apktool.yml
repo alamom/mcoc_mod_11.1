@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: marvel_bitva_chempionov_v11.1.0_mod_lenov.ru.apk
+compressionType: false
+doNotCompress:
+- arsc
+- txt
+- resource
+- assets/bin/Data/sharedassets0.resource.split0
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '775059'
+  versionName: 11.1.0
